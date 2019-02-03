@@ -8,7 +8,9 @@
     "@babel/preset-env": "^7.2.3",
     "gulp": "^4.0.0",
     "gulp-babel": "^8.0.0",
-    "gulp-rollup": "^2.16.2"
+    "gulp-rollup": "^2.16.2",
+    "babel-eslint": "^11.0.0-beta.0",
+    "gulp-eslint": "^5.0.0"
   },
   "name": "private-instance-methods-playground",
   "version": "1.0.0",
@@ -16,9 +18,9 @@
   "main": "dist/private-instance-methods.js",
   "author": "gverni <g.verni@gmail.com>",
   "license": "MIT",
-  "scripts": 
-  {
+  "scripts": {
     "build": "gulp build",
+    "lint": "gulp lint",
     "start": "node dist/private-instance-methods.js"
   }
 }
